@@ -1,12 +1,12 @@
-# Yum repository for XXO dependencies
+# Yum repository for FSO dependencies
 
 ## Usage
 
 ```
-# cat /etc/yum.repos.d/xxodeps.repo
-[xxodeps]
-name=XXO Dependencies
-baseurl=https://raw.githubusercontent.com/martin-langhoff/xxo-deps/master/
+# cat /etc/yum.repos.d/fsodeps.repo
+[fsodeps]
+name=FSO Dependencies
+baseurl=https://raw.githubusercontent.com/Invotas/fso-deps-yumrepo/master/
 failovermethod=priority
 enabled=1
 gpgcheck=0
